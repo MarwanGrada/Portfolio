@@ -61,10 +61,9 @@ span{
 
 
 
-object.logo{
+ .logo2 {
   width: 100px;
-  height: 100px;  
-  margin-bottom: -30px;
+  height: 100px;   
 }
 
 
@@ -77,8 +76,23 @@ footer  {
   font-size: 16px;
   
 }
+ .twitterl, .facebookl{
+  width: 60px;
+  height: 60px;
+}
+
+
 
 .copyright {
   color: white;
+}
+
+a.facebookl:after {
+  content: ""; 
+  position: absolute; 
+  top: 0; 
+  right: 0; 
+  bottom: 0; 
+  left: 0;
 }
 
