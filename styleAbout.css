@@ -58,6 +58,8 @@ span{
 }
 
 
+/*Content*/
+
 .p {
   float: left;
   padding: 20px;
@@ -87,6 +89,42 @@ span{
   
 }
 
+/*Projetcs*/
+
+a {
+  text-decoration: none;
+}
+
+.project {  
+  display: inline-block;
+  margin: 0 auto;
+  width: 990px;
+  margin: 100px;
+  border-top: solid 2px #999; 
+}
+
+.project a img{
+width: 300px;
+margin: 50px;
+}
+
+.week2 {
+  float: right;
+}
+.week1 {
+  float: left;
+}
+.week1 p {
+  text-align: center;
+  margin: -20px;
+}
+
+.week2 p {
+  text-align: center;
+  margin: -20px;
+}
+
+
 
 
 
@@ -109,7 +147,7 @@ span{
 /*Footer*/
 
 footer  {
-  position: absolute; 
+  position: fixed; 
   bottom: 0;
   left: 0;
   display: inline;  

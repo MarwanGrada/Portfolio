@@ -35,7 +35,7 @@ a:hover{
 
 h1{
   text-align: center;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: 700;
   color: white;
   text-transform:uppercase;
@@ -57,40 +57,39 @@ span{
   letter-spacing: 0.05em;
 }
 
+/*Content*/
 
-.p {
-  float: left;
-  padding: 20px;
+
+.form {
   text-align: center;
-
+  margin: 0 auto;
+  width:700px;
+  height: 400px;
 }
 
-.p h1{
-  width: 400px;
-  margin-top: 70px;
+#name, #email, #message {
   text-align: center;
-  padding-top: 20px;
+  width: 400px;
+  height: 30px;
 }
 
-.p p{
+#message{
   width: 400px;
-  height: 150px;
+  height: 90px;
+}
+
+#submit_button{
+  padding : 1px 17px;
+  border : solid 1px #e6e6e6;
+  font-family: 'Quicksand', sans-serif;  
+  font-size : 20px;
+  color:rgba(0,0,0,0.7);
+}
+#submit_button:hover{
   color: white;
-  font-weight: 900;
+  border : solid 1px #999;
+
 }
-
-
-
-.boo{
-  float: right;
-  margin: 100px;
-  
-}
-
-
-
-
-
 
 
 
